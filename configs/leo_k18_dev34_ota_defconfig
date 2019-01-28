@@ -1,0 +1,135 @@
+CONFIG_TARGET_leo=y
+CONFIG_TARGET_leo_ota=y
+CONFIG_TARGET_leo_ota_LEO_OTA=y
+CONFIG_subtarget_version="-dev34"
+CONFIG_DEVEL=y
+CONFIG_TOOLCHAINOPTS=y
+CONFIG_BINARY_FOLDER="$(TOPDIR)/bin/leo-k18-dev34-ota"
+CONFIG_EXTERNAL_KERNEL_CONFIG=y
+CONFIG_EXTERNAL_KERNEL_TREE="$(TOPDIR)/../kernel/k18/4.4"
+CONFIG_EXTERNAL_UBOOT_TREE="$(TOPDIR)/../uboot/k18/uboot"
+CONFIG_GLIBC_USE_VERSION_2_22=y
+CONFIG_GLIBC_VERSION="2.22"
+CONFIG_GLIBC_VERSION_2_22=y
+CONFIG_KERNEL_IP_PNP=y
+CONFIG_KERNEL_IP_PNP_DHCP=y
+CONFIG_KERNEL_NFS_FS=y
+CONFIG_KERNEL_NFS_V2=y
+CONFIG_KERNEL_NFS_V3=y
+CONFIG_KERNEL_ROOT_NFS=y
+CONFIG_LEO_OTA_KERNEL_DTS="leo_k18_dev34"
+CONFIG_LIBC="glibc"
+CONFIG_LIBC_USE_GLIBC=y
+# CONFIG_LIBC_USE_MUSL is not set
+CONFIG_LIBC_VERSION="2.22"
+# CONFIG_PACKAGE_aicore is not set
+# CONFIG_PACKAGE_alsa-lib is not set
+# CONFIG_PACKAGE_appmedia is not set
+# CONFIG_PACKAGE_bash is not set
+# CONFIG_PACKAGE_bluez-daemon is not set
+# CONFIG_PACKAGE_bluez-libs is not set
+# CONFIG_PACKAGE_bluez-utils is not set
+# CONFIG_PACKAGE_boost is not set
+# CONFIG_PACKAGE_curl is not set
+# CONFIG_PACKAGE_dbus is not set
+# CONFIG_PACKAGE_dropbear is not set
+# CONFIG_PACKAGE_eesen-master is not set
+# CONFIG_PACKAGE_firewall is not set
+# CONFIG_PACKAGE_glib2 is not set
+# CONFIG_PACKAGE_gxcoreapi is not set
+# CONFIG_PACKAGE_gxmpd is not set
+# CONFIG_PACKAGE_gxnpu is not set
+# CONFIG_PACKAGE_gxvsp is not set
+# CONFIG_PACKAGE_jansson is not set
+CONFIG_PACKAGE_kmod-fs-configfs=y
+# CONFIG_PACKAGE_kmod-input-core is not set
+# CONFIG_PACKAGE_kmod-ipt-conntrack is not set
+# CONFIG_PACKAGE_kmod-ipt-core is not set
+# CONFIG_PACKAGE_kmod-ipt-nat is not set
+# CONFIG_PACKAGE_kmod-nf-conntrack is not set
+# CONFIG_PACKAGE_kmod-nf-ipt is not set
+# CONFIG_PACKAGE_kmod-nf-nat is not set
+CONFIG_PACKAGE_kmod-scsi-core=y
+# CONFIG_PACKAGE_kmod-sound-core is not set
+# CONFIG_PACKAGE_libattr is not set
+# CONFIG_PACKAGE_libaudiofile is not set
+# CONFIG_PACKAGE_libcap is not set
+CONFIG_PACKAGE_libconfig=y
+# CONFIG_PACKAGE_libdb47 is not set
+# CONFIG_PACKAGE_libdbus is not set
+# CONFIG_PACKAGE_libfaad2 is not set
+# CONFIG_PACKAGE_libffi is not set
+# CONFIG_PACKAGE_libffmpeg-full is not set
+# CONFIG_PACKAGE_libflac is not set
+# CONFIG_PACKAGE_libgdbm is not set
+# CONFIG_PACKAGE_libical is not set
+# CONFIG_PACKAGE_libid3tag is not set
+# CONFIG_PACKAGE_libip4tc is not set
+# CONFIG_PACKAGE_libip6tc is not set
+# CONFIG_PACKAGE_libltdl is not set
+# CONFIG_PACKAGE_libmad is not set
+# CONFIG_PACKAGE_libmms is not set
+# CONFIG_PACKAGE_libmpdclient is not set
+# CONFIG_PACKAGE_libncursesw is not set
+# CONFIG_PACKAGE_libogg is not set
+# CONFIG_PACKAGE_libreadline is not set
+# CONFIG_PACKAGE_libsndfile is not set
+# CONFIG_PACKAGE_libspeexdsp is not set
+# CONFIG_PACKAGE_libsqlite3 is not set
+CONFIG_PACKAGE_libssp=y
+CONFIG_PACKAGE_libubootenv=y
+# CONFIG_PACKAGE_libupnp is not set
+CONFIG_PACKAGE_libuuid=y
+# CONFIG_PACKAGE_libvorbis is not set
+# CONFIG_PACKAGE_libvorbisidec is not set
+# CONFIG_PACKAGE_libwrap is not set
+# CONFIG_PACKAGE_libxml2 is not set
+# CONFIG_PACKAGE_libxtables is not set
+# CONFIG_PACKAGE_logd is not set
+# CONFIG_PACKAGE_mpc is not set
+# CONFIG_PACKAGE_mtd is not set
+# CONFIG_PACKAGE_openmaxIL is not set
+# CONFIG_PACKAGE_otaburn=y
+# CONFIG_PACKAGE_poco-1.7.8p2-all is not set
+# CONFIG_PACKAGE_pulseaudio-daemon is not set
+# CONFIG_PACKAGE_python is not set
+# CONFIG_PACKAGE_python-base is not set
+# CONFIG_PACKAGE_python-codecs is not set
+# CONFIG_PACKAGE_python-compiler is not set
+# CONFIG_PACKAGE_python-ctypes is not set
+# CONFIG_PACKAGE_python-db is not set
+# CONFIG_PACKAGE_python-decimal is not set
+# CONFIG_PACKAGE_python-distutils is not set
+# CONFIG_PACKAGE_python-email is not set
+# CONFIG_PACKAGE_python-gdbm is not set
+# CONFIG_PACKAGE_python-light is not set
+# CONFIG_PACKAGE_python-logging is not set
+# CONFIG_PACKAGE_python-multiprocessing is not set
+# CONFIG_PACKAGE_python-ncurses is not set
+# CONFIG_PACKAGE_python-openssl is not set
+# CONFIG_PACKAGE_python-pydoc is not set
+# CONFIG_PACKAGE_python-sqlite3 is not set
+# CONFIG_PACKAGE_python-unittest is not set
+# CONFIG_PACKAGE_python-xml is not set
+# CONFIG_PACKAGE_sbc is not set
+# CONFIG_PACKAGE_screen is not set
+# CONFIG_PACKAGE_senseflow is not set
+# CONFIG_PACKAGE_sptk-3.9 is not set
+# CONFIG_PACKAGE_swupdate=y
+CONFIG_PACKAGE_ota_unpack=y
+# CONFIG_PACKAGE_terminfo is not set
+CONFIG_PACKAGE_uboot-leo-gx8010-dev-1v=y
+# CONFIG_PACKAGE_webrtc is not set
+# CONFIG_PACKAGE_zeromq=y
+CONFIG_SSP_SUPPORT=y
+CONFIG_STRIP_ARGS="--strip-all"
+CONFIG_TARGET_INITRAMFS_COMPRESSION_LZMA=y
+# CONFIG_TARGET_ROOTFS_EXT4FS is not set
+CONFIG_TARGET_ROOTFS_INITRAMFS=y
+# CONFIG_TARGET_ROOTFS_TARGZ is not set
+# CONFIG_TARGET_ROOTFS_UBIFS is not set
+CONFIG_TARGET_SUFFIX="gnueabi"
+CONFIG_USE_GLIBC=y
+CONFIG_USE_STRIP=y
+# CONFIG_USE_LIBSTDCXX is not set
+CONFIG_USE_UCLIBCXX=y
