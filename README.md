@@ -1,7 +1,7 @@
 # YODAOS Kamino18
 
 <p align="center">
-  <img alt="Kamino18" src="kamino18.png" width="400" />
+  <img alt="Kamino18" src="kamino18.jpg" width="400" />
 </p>
 
 The `yodaos-kamino18` is to maintain the resources and configs for the following products:
