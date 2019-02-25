@@ -1,15 +1,13 @@
 # YODAOS Kamino18
 
-<p align="center">
-  <img alt="Kamino18" src="kamino18.jpg" width="400" />
-</p>
-
 The `yodaos-kamino18` is to maintain the resources and configs for the following products:
 
 - Kamino18 Devkit 3.0
 - Kamino18 Devkit 3.3
 
 And it can also be used as an sample of [YODAOS][]'s product.
+
+<img alt="Kamino18" src="kamino18.jpg" width="400" />
 
 ### Directories
 
