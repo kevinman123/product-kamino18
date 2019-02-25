@@ -11,9 +11,9 @@ And it can also be used as an sample of YodaOS's product.
 
 | path | description |
 |------|-------------|
-| [configs](./configs)  | [YODAOS][] uses [defconfig][] to manage which packages should be compiled. |
 | [ota](./ota)          | this directory manages the partition table for system OTA. |
 | [res](./res)          | the runtime resource directory. |
+| [configs](./configs)  | [YODAOS][] uses [defconfig][] to manage which packages should be compiled. |
 | [CMakeLists.txt][]    | the build script entry. |
 
 ### Build
