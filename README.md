@@ -5,16 +5,16 @@ The `yodaos-kamino18` is to maintain the resources and configs for the following
 - Kamino18 Devkit 3.0
 - Kamino18 Devkit 3.3
 
-And it can also be used as an sample of YodaOS's product.
+And it can also be used as an sample of [YODAOS][]'s product.
 
 ### Directories
 
 | path | description |
 |------|-------------|
-| [ota](./ota)          | this directory manages the partition table for system OTA. |
-| [res](./res)          | the runtime resource directory. |
+| [ota](./ota)          | This directory manages the partition table for system OTA. |
+| [res](./res)          | The runtime resource directory. |
 | [configs](./configs)  | [YODAOS][] uses [defconfig][] to manage which packages should be compiled. |
-| [CMakeLists.txt][]    | the build script entry. |
+| [CMakeLists.txt][]    | The build script entry. |
 
 ### Build
 
